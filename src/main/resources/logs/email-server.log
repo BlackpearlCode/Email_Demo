@@ -1,0 +1,39 @@
+myDemo 2023-02-16 17:18:25.705 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8080 (http) 
+myDemo 2023-02-16 17:18:25.738 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+myDemo 2023-02-16 17:18:25.738 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.71] 
+myDemo 2023-02-16 17:18:25.945 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+myDemo 2023-02-16 17:18:25.945 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1491 ms 
+myDemo 2023-02-16 17:18:26.417 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8080 (http) with context path '' 
+myDemo 2023-02-16 17:18:26.431 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EmailDemoApplication in 2.868 seconds (JVM running for 4.099) 
+myDemo 2023-02-16 17:18:59.617 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+myDemo 2023-02-16 17:18:59.617 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+myDemo 2023-02-16 17:18:59.620 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 3 ms 
+myDemo 2023-02-16 17:19:01.812 INFO com.example.email_demo.util.EmailUtil.sendSimpleMail 邮件发送成功 
+myDemo 2023-02-16 17:24:03.347 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting EmailDemoApplication using Java 1.8.0_351 on DESKTOP-AMQ456R with PID 10920 (D:\projects\Email_Demo\target\classes started by 26449 in D:\projects\Email_Demo) 
+myDemo 2023-02-16 17:24:03.355 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo No active profile set, falling back to 1 default profile: "default" 
+myDemo 2023-02-16 17:24:04.830 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8080 (http) 
+myDemo 2023-02-16 17:24:04.844 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+myDemo 2023-02-16 17:24:04.845 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.71] 
+myDemo 2023-02-16 17:24:05.057 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+myDemo 2023-02-16 17:24:05.058 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 1592 ms 
+myDemo 2023-02-16 17:24:05.595 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8080 (http) with context path '' 
+myDemo 2023-02-16 17:24:05.610 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EmailDemoApplication in 3.249 seconds (JVM running for 4.602) 
+myDemo 2023-02-16 17:24:09.980 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+myDemo 2023-02-16 17:24:09.981 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+myDemo 2023-02-16 17:24:09.983 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 1 ms 
+myDemo 2023-02-16 17:24:12.210 INFO com.example.email_demo.util.EmailUtil.sendSimpleMail 邮件发送成功 
+myDemo 2023-02-16 17:26:48.664 INFO com.example.email_demo.util.EmailUtil.sendSimpleMail 邮件发送成功 
+myDemo 2023-02-16 18:11:44.434 INFO org.springframework.boot.StartupInfoLogger.logStarting Starting EmailDemoApplication using Java 1.8.0_351 on DESKTOP-AMQ456R with PID 5476 (D:\projects\Email_Demo\target\classes started by 26449 in D:\projects\Email_Demo) 
+myDemo 2023-02-16 18:11:44.463 INFO org.springframework.boot.SpringApplication.logStartupProfileInfo No active profile set, falling back to 1 default profile: "default" 
+myDemo 2023-02-16 18:11:49.593 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize Tomcat initialized with port(s): 8080 (http) 
+myDemo 2023-02-16 18:11:49.634 INFO org.apache.juli.logging.DirectJDKLog.log Starting service [Tomcat] 
+myDemo 2023-02-16 18:11:49.635 INFO org.apache.juli.logging.DirectJDKLog.log Starting Servlet engine: [Apache Tomcat/9.0.71] 
+myDemo 2023-02-16 18:11:50.550 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring embedded WebApplicationContext 
+myDemo 2023-02-16 18:11:50.552 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext Root WebApplicationContext: initialization completed in 5765 ms 
+myDemo 2023-02-16 18:11:52.504 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start Tomcat started on port(s): 8080 (http) with context path '' 
+myDemo 2023-02-16 18:11:52.553 INFO org.springframework.boot.StartupInfoLogger.logStarted Started EmailDemoApplication in 10.201 seconds (JVM running for 13.396) 
+myDemo 2023-02-16 18:12:14.278 INFO org.apache.juli.logging.DirectJDKLog.log Initializing Spring DispatcherServlet 'dispatcherServlet' 
+myDemo 2023-02-16 18:12:14.284 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Initializing Servlet 'dispatcherServlet' 
+myDemo 2023-02-16 18:12:14.291 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean Completed initialization in 4 ms 
+myDemo 2023-02-16 18:12:17.839 INFO com.example.email_demo.util.EmailUtil.sendMailWithFile 邮件发送成功 
+myDemo 2023-02-16 18:13:32.499 INFO com.example.email_demo.util.EmailUtil.sendMailWithFile 邮件发送成功 

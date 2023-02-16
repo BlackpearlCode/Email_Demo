@@ -1,0 +1,45 @@
+# 服务名称
+spring:
+    application:
+        name: email-server
+    # spring-boot-starter-mail配置项
+    mail:
+        #服务器地址
+        host: smtp.qq.com
+        #邮箱账号
+        username: xxxx@qq.com
+        #邮件发送授权码
+        password: mgateczpjbczdicd
+        #设置编码格式
+        default-encoding: UTF-8
+        properties:
+          mail:
+            smtp:
+                #如果设置false，可以不设置用户名和密码，当然也得看你的对接的平台是否支持无密码进行访问的。
+                auth: true
+                ssl:
+                    #qq邮件需要配置ssl，开启加密验证，如果是其它邮箱就不用
+                    enable: true
+
+# 日志配置
+logging:
+    # 日志级别
+    level:
+        root: info
+    file:
+        # 日志文件名格式
+        name: ./src/main/resources/logs/${spring.application.name}.log
+    pattern:
+        # 日志记录格式[组件名称] [时间戳] [日志级别] [类名.方法名] [消息文本]
+        file: myDemo %d{yyyy-MM-dd HH:mm:ss.SSS} %p %C.%M %m %n
+    logback:
+        rollingpolicy:
+            # 根据文件大小归档，超过2KB自动归档，次日启动服务时也会自动归档
+            file-name-pattern: ./src/main/resources/logs/%d{yyyy-MM-dd}/${spring.application.name}.log.%d{yyyy-MM-dd}.%i.text
+            # 最大日志文件大小(默认为10MB，这里为了测试归档，暂时设置为2KB)
+            max-file-size: 20KB
+            # 要保留的日志备份的总大小(默认为0B)
+            total-size-cap: 1GB
+            # 保存存档日志文件的最大天数(默认为7天)
+            max-history: 20
+
